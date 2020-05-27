@@ -1,0 +1,83 @@
+
+p{
+    color: cadetblue;
+    font-size: 20px;
+    font-style: normal;
+    
+}
+.div1{
+    background: darkgray;
+    border: 5px;
+    margin: 50px;
+    padding:10px ;
+    height: auto;
+    width: auto;
+}
+.div2{
+    border: 5px;
+    background: darkgreen;
+    margin:50px;
+    padding:30px;
+    height:auto;
+    width: 300px;
+}
+.h2{
+    color: darkgreen;
+    text-align: center;
+}
+.table,th,td{
+    border: darkgrey solid 2px;
+    border-collapse: collapse;
+    
+}
+.h1{
+    background-color: darkmagenta;
+    color: white;
+    transition: 1000ms;
+}
+.h1:hover{
+    color: darkturquoise;
+    
+}
+.box{
+    background: black;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.box h1{
+    color: white;
+    text-align: center;
+}
+.form_username,.form_password{
+    border: 1px solid blueviolet;
+    background: transparent;
+    border-radius: 10px;
+    padding: 15px 30px;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.form_username:focus,.form_password:focus{
+    border: 2px solid springgreen;
+    padding: 20px 150px;
+}
+
+.btn_form{
+    border: 1px solid springgreen;
+    border-radius: 10px;
+    padding:10px 10px;
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+    transition: 1000ms;
+
+}
+.btn_form:hover{
+    background: thistle;
+    color: tomato;
+}
