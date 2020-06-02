@@ -1,0 +1,168 @@
+.obj-icon{
+    left: -11px;
+}
+.school-section{
+    background-image: url("/wp-content/themes/StrapPress-master/images/ytubgimage.jpg");
+    background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:200px;
+	width:100%;
+}
+.school-section > div{
+    background-color: rgba(22,26,70,0.4) !important;
+}
+.updated-post-date{
+    display: none !important;
+}
+.theme-bg-color{    
+    background-color: #e47a13 !important;
+}
+.theme-text-color{
+    color: #e47a13 !important;
+}
+.latest-content:hover .updated-post-date{
+    height: 100%;
+    width: 19%;
+    top: 0;
+    display: block !important;
+    align-items: flex-end;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin : 1px !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    margin: 6px !important;
+}
+.page-title{
+    /* border-left: 2px solid #f13b2b; */
+    padding-left: 0px;
+    padding-top:1em;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .obj-icon{
+        left: 0px;
+    }
+    .school-section{
+        background-image: url("/wp-content/themes/StrapPress-master/images/ytubgimage.jpg");
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+        height:400px;
+        width:100%;
+    }
+}
+
+.rectormessage img{
+    width: 250px;
+    float: left;
+    margin-right: 1em;
+}
+.latestnews{
+    margin-bottom: 2em;
+}
+.latestnews ul li{
+    list-style-image: url("/wp-content/uploads/2019/12/add01.png");
+    vertical-align: middle;
+}
+.latestnews ul li a{
+    padding-right:1.2em;
+}
+.latestnews h2{
+    margin-top: .1em;
+    background-color: #f18d2b;
+    padding: 0em;
+    color: #fff;
+    
+    text-align: center;
+    word-spacing: .3em;
+}
+li.blocks-gallery-item {
+    border: 1px solid #ddd;
+    padding: .2em;
+    border-radius: .3em;
+}
+ul.wp-block-gallery.alignleft.columns-2.is-cropped {
+    margin-top: 2em;
+    margin-right: 1em;
+}
+span.page-numbers.current {
+    padding: 1em;
+    background-color: #e87b0f;
+    color: #fff;
+}
+a.page-numbers {
+    padding: 1em;
+    background-color: #f7a14d;
+    color: #fff;
+}
+hr.new3 {
+    border-top: 1px dotted red;
+  }
+  .aa ul li{
+    list-style-image: url("http://localhost/ytu/wp-content/uploads/2019/12/add01.png");
+  }
+  .dept img{
+    width: 140px;
+  }
+  .moreh.text-dark img{
+      width:150px;
+      margin-top:-2em;
+}
+table.wp-block-table {
+    background-color: #f5ca87;
+    padding: 1em;
+}
+.single-page{
+    
+    margin-top: 1em;
+    padding: 3em;
+}
+.singleimg img{
+    width: 200px;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  .accordion .card .card-header {
+    margin-bottom: 0px;
+}
+a {
+    color: green;
+}
+  
+  
