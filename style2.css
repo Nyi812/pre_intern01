@@ -1,0 +1,134 @@
+.navigation{
+    background: gray;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+}
+.navigation ul li a{
+    color: white;
+    padding: 10px 30px;
+}
+.background{
+    background: url("image/restaurant1.jpg");
+    width: 100%;
+    height: 600px;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.background h1{
+    color: white;
+    margin-top: 25%;
+    margin-left: 40%;
+    letter-spacing: 3px;
+}
+.background button{
+    margin-top: 20px;
+    margin-left: 42%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: magenta;
+    background: transparent;
+    transition: 1000ms;
+}
+.background button:hover{
+    background: magenta;
+    color: white;
+}
+.content h3{
+    text-align: center;
+    color: magenta;
+    font-size: 40px;
+    font-weight: 700;
+}
+.content p{
+    text-align: justify;
+
+}
+.content h4{
+    color: magenta;
+}
+.content_background{
+    background: blue;
+    padding: 40px 100px;
+}
+.content_background img{
+    width: 200px;
+    border: 2px solid white;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.footer{
+    background: blue;
+    padding: 30px 100px;
+}
+.footer_part1{
+    text-align: center;
+    color: white;
+}
+.footer_form{
+    margin-left: 150px;
+}
+.footer_form .form_firstname,.footer_form .form_lastname,.footer_form .form_sendmessage,.footer_form .form_password,.footer_form .form_email,.footer_form .form_confirmpwd{
+    padding: 15px 40px;
+    border: 1px solid magenta;
+    border-radius: 10px;
+}
+.footer_form .form_firstname:focus,.footer_form .form_lastname:focus,.footer_form .form_sendmessage:focus,.footer_form .form_password:focus,.footer_form .form_email:focus,.footer_form .form_confirmpwd:focus{
+    border: 2px solid green;
+    padding: 20px 50px;
+}
+.footer_form .form_message{
+    padding: 15px 280px;
+    border-radius: 10px;
+
+}
+.footer button{
+    margin-left: 170px;
+    padding: 10px 40px;
+    border: 1px solid magenta;
+    border-radius: 10px;
+    background: transparent;
+    transition: 1000ms;
+}
+.footer button:hover{
+    background-color: magenta;
+    color: white;
+}
+
+
+
+
+.img_wh{
+    width: 100px;
+    height: 50px;
+}
+.img_wh1{
+    width: 200px;
+    height: 150px;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mtb-30{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.paragraph{
+    letter-spacing: unset;
+}
+
+.button{
+    padding: 6px 20px;
+    border-radius: 5px;
+    background: magenta;
+    color: red;
+    transition: 1000ms;
+}
+.button:hover{
+    background: orange;
+    color: white;
+}
